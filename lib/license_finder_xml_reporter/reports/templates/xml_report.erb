@@ -3,8 +3,7 @@
   <dependencies>
     <% sorted_dependencies.each do |dependency| -%>
         <dependency>
-          <groupId><%= dependency.name %></groupId>
-          <artifactId><%= dependency.name %></artifactId>
+          <packageName><%= dependency.name %></packageName>
           <version><%= dependency.version %></version>
           <licenses>
             <% dependency.licenses_from_spec.each do |license| -%>
