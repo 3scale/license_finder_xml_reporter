@@ -11,8 +11,7 @@ class XmlReporterTest < Minitest::Test
 <licenseSummary>
   <dependencies>
             <dependency>
-          <groupId>gem_a</groupId>
-          <artifactId>gem_a</artifactId>
+          <packageName>gem_a</packageName>
           <version>1.0</version>
           <licenses>
                           <license>

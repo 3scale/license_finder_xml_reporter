@@ -6,7 +6,7 @@
           <packageName><%= dependency.name %></packageName>
           <version><%= dependency.version %></version>
           <licenses>
-            <% dependency.licenses_from_spec.each do |license| -%>
+            <% dependency.licenses.each do |license| -%>
               <license>
                 <name><%= license.name %></name>
                 <url><%= license.url %></url>
