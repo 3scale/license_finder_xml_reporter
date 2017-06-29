@@ -22,7 +22,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use the `RUBYOPT` env:
+
+    $ RUBYOPT=license_finder_xml_reporter license_finder report --format=xml
 
 ## Development
 
